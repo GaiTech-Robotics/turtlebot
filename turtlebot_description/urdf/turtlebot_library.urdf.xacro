@@ -12,8 +12,12 @@
   <!-- Stacks -->
   <xacro:include filename="$(find turtlebot_description)/urdf/stacks/circles.urdf.xacro"/>
   <xacro:include filename="$(find turtlebot_description)/urdf/stacks/hexagons.urdf.xacro"/>
+  <xacro:include filename="$(find turtlebot_description)/urdf/stacks/kinect2_hexagons.urdf.xacro"/>
   <!-- 3D Sensors -->
   <xacro:include filename="$(find turtlebot_description)/urdf/sensors/kinect.urdf.xacro"/>
+  <xacro:include filename="$(find turtlebot_description)/urdf/sensors/kinect2.urdf.xacro"/>
+
+
   <xacro:include filename="$(find turtlebot_description)/urdf/sensors/asus_xtion_pro.urdf.xacro"/>
   <xacro:include filename="$(find turtlebot_description)/urdf/sensors/asus_xtion_pro_offset.urdf.xacro"/>
 </robot>
